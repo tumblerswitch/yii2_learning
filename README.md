@@ -10,4 +10,10 @@
     2. Папка домена:```\yii2_learning\app\frontend\web```
     3. Имя домена: ```admin.yii2-learn.loc```
     4. Папка домена:```\yii2_learning\app\backend\web```
+2. Добавить БД:
+   1. Создать новую БД "exampleName"
+   2. Изменить в app\config\main-local.php
+      ```
+      'dsn' => 'mysql:host=localhost;dbname=exampleName',
+      ```
   
